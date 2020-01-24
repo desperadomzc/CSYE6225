@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="helloworld:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/helloworld_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="helloworld/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="helloworld" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring Security-5.2.1" />
+          <element id="library" level="project" name="Hibernate 5.4.9-5.4.9" />
+          <element id="library" level="project" name="java-json" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.34_1" />
+          <element id="library" level="project" name="passay-1.4.0" />
+          <element id="library" level="project" name="junit-4.13" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
